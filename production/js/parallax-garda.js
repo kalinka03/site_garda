@@ -1,0 +1,1 @@
+function garda_Paralax(){var a=document.getElementById("scene");new Parallax(a)}$(function(){garda_Paralax()});
