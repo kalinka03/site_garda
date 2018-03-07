@@ -289,8 +289,8 @@ margin-left: 15px;
 }
 
 .border-line-restaur {
-    width: 93%;
-    height: 11.4%;
+width: 100%;
+    height: 89.4%;
 }
 
 .type-institution .icon-type img {
@@ -311,9 +311,7 @@ margin-left: 15px;
     top: 7px;
     right: 45px;
 }
-/*    .recreationpage-title h3 {
-    padding-left: 0;
-    }*/
+
     .border-line {
     width: 90%;
         height: 94%;
@@ -415,7 +413,7 @@ display: flex;
 }
 .border-line-restaur {
     width: 98%;
-    height: 86%;
+    height: 90%;
 }
 }
 
@@ -770,6 +768,7 @@ margin-bottom: 50px;
 .section-accom .accommodation-option .rest-all .foto-hostel {
     width: 255px;
     margin: initial;
+        margin-left: 30px;
 }
 .border-line-restaur {
     width: 92%;

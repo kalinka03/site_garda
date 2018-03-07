@@ -16,9 +16,6 @@ $(function () {
     date_pick();
     styler_input();
     calend();
-
-    // open_calendar();
-    // lp_recreat();
 });
 
 

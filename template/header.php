@@ -26,10 +26,10 @@
     <!-- OwlCarousel  -->
 
 
-     <link rel="stylesheet" type="text/css" href="/plugin/aSendForm/assets/a-valid.css"> 
+    <link rel="stylesheet" type="text/css" href="/plugin/aSendForm/assets/a-valid.css"> 
 
 
-  <!-- phonecode  -->
+    <!-- phonecode  -->
     <link rel="stylesheet" type="text/css" href="/plugin/phonecode-master/phonecode-master/phonecode.css"> 
     <!-- phonecode  -->
 
@@ -38,79 +38,40 @@
     <link rel="stylesheet" type="text/css" href="/plugin/bootstrap-daterangepicker-master/daterangepicker.css" />
     <!-- daterangepicker  -->
 
-  <!-- less-->
+    <!-- less-->
 
     <script  type="text/javascript" src="/plugin/less/dist/less.min.js"></script>
-     <!-- less-->
+    <!-- less-->
 
-      <!--parallax-->
+    <!--parallax-->
 
     <script type="text/javascript" src="/plugin/parallax-3.1/parallax-3.1/src/parallax.js"></script>
-    <!-- <script type="text/javascript"  src="/plugin/parallax/parallax.js"></script> -->
-         <!--parallax-->
+    <!--parallax-->
 
 
     <script  type="text/javascript" src="/plugin/less/dist/less.min.js"></script>
-
     <script type="text/javascript" src="/plugin/parallax-3.1/parallax-3.1/src/parallax.js"></script>
-
     <script type="text/javascript"  src="/js/jquery.min.js"></script>
     <script type="text/javascript"  src="/plugin/fancybox-master/dist/jquery.fancybox.min.js"></script>
     <script type="text/javascript"  src="/plugin/OwlCarousel/dist/owl.carousel.min.js"></script>
     <script type="text/javascript"  src="/plugin/aos-master/dist/aos.js"></script>
     <script type="text/javascript"  src="/plugin/parallax/parallax.js"></script>
     <script type="text/javascript" src="/plugin/jquery-validation-1.15.1/dist/jquery.validate.js"></script> 
-
     <script type="text/javascript" src="/plugin/gmap/dist/gmap3.js"></script>
-
     <script type="text/javascript" src="/plugin/bootstrap-daterangepicker-master/moment.min.js"></script>
     <script type="text/javascript" src="/plugin/bootstrap-daterangepicker-master/daterangepicker.js"></script>
-
-
-<script type="text/javascript" src="/plugin/phonecode-master/phonecode-master/jquery-ui-1.10.4.custom.min.js"></script>
-<script type="text/javascript" src="/plugin/phonecode-master/phonecode-master/countries.json"></script>
-<script type="text/javascript" src="/plugin/phonecode-master/phonecode-master/phonecode.js"></script>
-<script type="text/javascript" src="/plugin/phonecode-master/phonecode-master/counties.js"></script>
-
-<!-- <script type="text/javascript" src="/plugin/daterangepick/jquery.datepick.js"></script> -->
-<!-- <script type="text/javascript" src="/plugin/daterangepick/jquery.daterangepick.js"></script> -->
-
-
+    <script type="text/javascript" src="/plugin/phonecode-master/phonecode-master/jquery-ui-1.10.4.custom.min.js"></script>
+    <script type="text/javascript" src="/plugin/phonecode-master/phonecode-master/countries.json"></script>
+    <script type="text/javascript" src="/plugin/phonecode-master/phonecode-master/phonecode.js"></script>
+    <script type="text/javascript" src="/plugin/phonecode-master/phonecode-master/counties.js"></script>
 
     <script src="http://maps.google.com/maps/api/js"></script> 
     <script type="text/javascript"  src="/js/clider.js"></script>
     <script type="text/javascript"  src="/js/validate.js"></script>
-        <script type="text/javascript"  src="/js/main.js"></script>
+    <script type="text/javascript"  src="/js/main.js"></script>
 
 </head>
 <body>
-<script>
-
-    /**
-     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://garda-com-1.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<script type="text/javascript">(function() {
-  if (window.pluso)if (typeof window.pluso.start == "function") return;
-  if (window.ifpluso==undefined) { window.ifpluso = 1;
-    var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
-    s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
-    s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
-    var h=d[g]('body')[0];
-    h.appendChild(s);
-  }})();</script>
     <header>
 
         <div class="section-menu">
@@ -119,61 +80,57 @@
                     <div class="row">
                         <div class="logo-mobile">
                           <div class="col-md-3 col-sm-3 col-xs-4">
-                             <a href="/">
-                                <img src="img/header/logo.png" alt="Картинка не подгрузилась">
-                            </a>
-
-                        </div>
+                           <a href="/">
+                            <img src="img/header/logo.png" alt="Картинка не подгрузилась">
+                        </a>
                     </div>
-                    <div class="col-sm-1">
+                </div>
+                <div class="col-sm-1">
+                </div>
+                <div class="col-sm-8">
+                   <div class="menu-upper-main">
+                    <ul>
+                     <li><a href="#">О нас</a></li>
+                     <li><a href="#">Галерея</a></li>
+                     <li><a href="/partner.php">Партнеры</a></li>
+                     <li><a href="/rewievs.php">Отзывы</a></li>
+                     <li><a href="">Недвижимость</a></li>
+                     <li><a href="/answer.php">Вопросы </a></li>
+                     <li><a href="/blog.php">Блог</a></li>
+                 </ul>
+             </div>
+         </div>
+         <div class="col-md-3 col-sm-8 col-xs-7">
+            <div class="search">
+                <form action="/search.php" method="post" class="navbar-form navbar-left" role="search">
+                    <div class="form-group clearfix">
+
+                        <input type="text" class="js-button" placeholder="Поиск">
+                        <button type="submit" class="default"></button>
+                        <a  class="default-mobile" href="#"></a>
                     </div>
-                    <div class="col-sm-8">
-                     <div class="menu-upper-main">
-                        <ul>
-                           <li><a href="#">О нас</a></li>
-                           <li><a href="#">Галерея</a></li>
-                           <li><a href="/partner.php">Партнеры</a></li>
-                           <li><a href="/rewievs.php">Отзывы</a></li>
-                           <li><a href="">Недвижимость</a></li>
-                           <li><a href="/answer.php">Вопросы </a></li>
-                           <li><a href="/blog.php">Блог</a></li>
-                       </ul>
-                   </div>
-               </div>
-               <div class="col-md-3 col-sm-8 col-xs-7">
-                <div class="search">
-                    <form action="/search.php" method="post" class="navbar-form navbar-left" role="search">
-                        <div class="form-group clearfix">
-
-                            <input type="text" class="js-button" placeholder="Поиск">
-                            <button type="submit" class="default"></button>
-                            <a  class="default-mobile" href="#"></a>
-                        </div>
-                    </form>
-                    <a  class="default-button" href="#"></a>
-                </div>
+                </form>
+                <a  class="default-button" href="#"></a>
             </div>
-            <div class="menu-closes">
-               <div class="menu__icon">
-                <div class="col-sm-3 col-xs-3">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
+        </div>
+        <div class="menu-closes">
+         <div class="menu__icon">
+            <div class="col-sm-3 col-xs-3">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-
         </div>
     </div>
 </div>
-
+</div>
 <div class="seach-mobile">
     <form action="/search.php" method="post">
         <input type="text" class="form-control" placeholder="Поиск">
         <button type="submit" class="default"></button>
     </form>
 </div>
-
 <div class="lower-menu">
     <div class="container">
         <div class="row">
@@ -231,9 +188,6 @@
                                     <li><a href="">Администрирование недвижимости</a></li>
                                 </div>
                             </ul>
-
-
-
                         </li>
                         <li class="classes"><a href="/recreationPage.php">Чем заняться на озере Гарда</a>
                             <ul class="menu-classes">
@@ -253,9 +207,6 @@
                                     <li><a href="/recreation.php">Интересные маршруты</a></li>
                                 </div>
                             </ul>
-
-
-
                         </li>
                     </ul>
                 </div>
@@ -264,7 +215,6 @@
                 <div class="map">
                     <a href="#">Карта</a>
                 </div>
-
             </div>
         </div>
     </div>
@@ -316,9 +266,6 @@
                     <li><a href="/">Администрирование недвижимости</a></li>
                 </div>
             </ul>
-
-
-
         </li>
         <li class="classes"><a href="/recreationPage.php">Чем заняться на озере Гарда</a>
             <ul class="menu-mobile-classes">
@@ -338,11 +285,7 @@
                     <li><a href="/recreation.php">Интересные маршруты</a></li>
                 </div>
             </ul>
-
-
-
         </li>
-
         <div class="map">
             <img src="img/header/map.svg" alt="Картинка не подгрузилась">
             <a href="/">Карта</a>
@@ -350,15 +293,15 @@
     </ul>
     <div class="mobile-second">
         <ul class="menu-second">
-         <li><a href="#">О нас</a></li>
-         <li><a href="#">Галерея</a></li>
-         <li><a href="/partner.php">Партнеры</a></li>
-         <li><a href="/rewievs.php">Отзывы</a></li>
-         <li><a href="">Недвижимость</a></li>
-         <li><a href="/answer.php">Вопросы </a></li>
-         <li><a href="/blog.php">Блог</a></li>
-     </ul>
- </div>
+           <li><a href="#">О нас</a></li>
+           <li><a href="#">Галерея</a></li>
+           <li><a href="/partner.php">Партнеры</a></li>
+           <li><a href="/rewievs.php">Отзывы</a></li>
+           <li><a href="">Недвижимость</a></li>
+           <li><a href="/answer.php">Вопросы </a></li>
+           <li><a href="/blog.php">Блог</a></li>
+       </ul>
+   </div>
 </div>
 </div>
 </header>
